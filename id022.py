@@ -1,6 +1,6 @@
 """
 Author: Luke Spademan
-Calculates answer to project euler problem idx
+Calculates answer to project euler problem id22
 https://projecteuler.net/problem=22
 """
 from utils.word_value import word_value
