@@ -3,8 +3,8 @@ Author: Luke Spademan
 Calculates answer to project euler problem id20
 https://projecteuler.net/problem=20
 """
-from module.factorial import factorial
-from module.sum_of_digits import sum_of_digits
+from utils.factorial import factorial
+from utils.sum_of_digits import sum_of_digits
 
 
 def calculate():

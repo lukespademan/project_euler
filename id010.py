@@ -3,7 +3,7 @@ Author: Luke Spademan
 Calculates answer to project euler problem id10
 https://projecteuler.net/problem=10
 """
-from module.primes_under import primes_under
+from utils.primes_under import primes_under
 
 
 def calculate():

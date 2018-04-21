@@ -3,7 +3,7 @@ Author: Luke Spademan
 Calculates answer to project euler problem id15
 https://projecteuler.net/problem=15
 """
-from module.factorial import factorial
+from utils.factorial import factorial
 
 
 def calculate():

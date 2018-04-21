@@ -3,7 +3,7 @@ Author: Luke Spademan
 Calculates answer to project euler problem id5
 https://projecteuler.net/problem=5
 """
-from module.multiple_of_range import multiple_of_range
+from utils.multiple_of_range import multiple_of_range
 
 
 def calculate():

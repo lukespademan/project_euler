@@ -3,7 +3,7 @@ Author: Luke Spademan
 Calculates answer to project euler problem id3
 https://projecteuler.net/problem=3
 """
-from module.is_prime import is_prime
+from utils.is_prime import is_prime
 
 
 def calculate():

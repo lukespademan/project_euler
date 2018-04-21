@@ -3,7 +3,7 @@ Author: Luke Spademan
 Calculates answer to project euler problem id14
 https://projecteuler.net/problem=14
 """
-from module.next_collatz import next_collatz
+from utils.next_collatz import next_collatz
 
 
 def calculate():

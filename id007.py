@@ -3,7 +3,7 @@ Author: Luke Spademan
 Calculates answer to project euler problem id7
 https://projecteuler.net/problem=7
 """
-from module.nth_prime import nth_prime
+from utils.nth_prime import nth_prime
 
 
 def calculate():

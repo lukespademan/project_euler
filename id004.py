@@ -3,7 +3,7 @@ Author: Luke Spademan
 Calculates answer to project euler problem id4
 https://projecteuler.net/problem=4
 """
-from module.reverse import reverse
+from utils.reverse import reverse
 
 
 def calculate():
