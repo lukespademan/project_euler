@@ -5,7 +5,7 @@ https://projecteuler.net/problem=6
 """
 
 
-def calculate():
+def calculate() -> int:
     sum1 = 0
     sum2 = 0
     for i in range(1, 101):
@@ -14,6 +14,7 @@ def calculate():
     sum1 **= 2
     ans = sum1 - sum2
     return ans
+
 
 if __name__ == "__main__":
     answer = calculate()

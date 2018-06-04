@@ -6,7 +6,7 @@ https://projecteuler.net/problem=4
 from utils.reverse import reverse
 
 
-def calculate():
+def calculate() -> int:
     ans = 0
     for i in range(100, 999):
         for j in range(100, 999):

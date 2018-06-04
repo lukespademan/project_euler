@@ -6,7 +6,7 @@ https://projecteuler.net/problem=7
 from utils.nth_prime import nth_prime
 
 
-def calculate():
+def calculate() -> int:
     ans = nth_prime(10001)
     return ans
 

@@ -1,3 +1,7 @@
-def reverse(num):
+from typing import Any
+
+
+def reverse(num: Any) -> Any:
+    t = type(num)
     s = str(num)
-    return int(s[::-1])
+    return t(s[::-1])

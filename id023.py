@@ -11,14 +11,15 @@ def calculate():
     abundent_nums = []
     abundent_sums = []
     for i in range(28123):
+        print(i)
+        if i not in abundent_sums:
+            ans += i
         if is_abundent(i):
             abundent_nums.append(i)
 
         for j in abundent_nums[:-1]:
-            abundent_sums.append(i+j)
-
-        if i not in abundent_sums:
-            ans += 1
+            if i+j not in abundent_sums:
+                abundent_sums.append(i+j)
             
     return ans
 

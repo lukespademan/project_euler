@@ -6,7 +6,7 @@ https://projecteuler.net/problem=5
 from utils.multiple_of_range import multiple_of_range
 
 
-def calculate():
+def calculate() -> int:
     ans = 0
     i = 0
     while not ans:

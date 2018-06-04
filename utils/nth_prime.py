@@ -1,7 +1,7 @@
 from .is_prime import is_prime
 
 
-def nth_prime(n: int):
+def nth_prime(n: int) -> int:
     prime_count = 0
     tester = 1
     while prime_count != n:
